@@ -8,7 +8,7 @@
 
 ## 🎯 Mission
 
-To build a world where people use AI **wisely**, not mindlessly — and reclaim their power to think independently.
+To build a world where people use AI **wisely**, not mindlessly and reclaim their power to think independently.
 
 ---
 
