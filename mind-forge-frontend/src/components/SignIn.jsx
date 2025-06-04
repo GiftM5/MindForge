@@ -8,7 +8,6 @@ const SignIn = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     console.log('Logging in with:', { email, password });
-    // You can integrate backend logic later
   };
 
   return (

@@ -9,7 +9,6 @@ const SignUp = () => {
   const handleSignUp = (e) => {
     e.preventDefault();
     console.log('Signing up with:', { fullName, email, password });
-    // You can integrate backend logic later
   };
 
   return (
