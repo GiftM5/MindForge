@@ -1,3 +1,4 @@
+import Starfield from './Starfield'
 import { useState } from 'react'
 import {motion} from 'framer-motion'
 import reactLogo from './assets/react.svg'
@@ -9,17 +10,29 @@ function App() {
 
   return (
     <>
-      <div style={{ minHeight: '100vh' }}>
+      <div className="relative min-h-screen flex flex-col items-center justify-center text-center">
+      <Starfield />
+
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 2 }}
-        className="text-6xl font-extrabold p-8 text-white drop-shadow-lg"
+        className="text-6xl font-extrabold p-8 text-white drop-shadow-lg z-10"
       >
         Welcome to MindForge
       </motion.h1>
-    </div>
 
+      <motion.button
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 0.8 }}
+        className="mt-4 px-8 py-3 bg-blue-600 text-white font-semibold rounded-2xl shadow-lg hover:bg-blue-700 z-10"
+      >
+      Let's get started!
+      </motion.button>
+    </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
