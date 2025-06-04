@@ -8,6 +8,10 @@ function App() {
 
   return (
     <>
+      <div className="text-3xl font-bold text-white bg-black h-screen flex items-center justify-center">
+        Welcome to MindForge 🧠!
+      </div>
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
