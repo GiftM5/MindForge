@@ -7,7 +7,7 @@
   color: rgba(255, 255, 255, 0.87);
 
   background-color: #242424;
-  background-image: url('C:\Users\Lerato\MindForge\mind-forge-frontend\olena-bohovyk-Cq5NaI0yKBE-unsplash (1).jpg');
+  background-image: url('C:\Users\Lerato\MindForge\mind-forge-frontend\olena-bohovyk-Cq5NaI0yKBE-unsplash (1).jpg'); /* Put your image in public/ folder */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -24,23 +24,27 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  position: relative; /* needed for overlay */
+  position: relative;
   color: inherit;
 }
 
-/* Dark overlay on top of background image */
+/* Dark overlay to improve text visibility */
 body::before {
   content: "";
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+  background: rgba(0, 0, 0, 0.5);
   pointer-events: none;
   z-index: -1;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 4rem; /* Big title */
+  font-weight: 800; /* Extra bold */
+  color: white;
+  padding: 2rem;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Glow for visibility */
 }
 
 a {
@@ -48,6 +52,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -63,9 +68,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -75,7 +82,7 @@ button:focus-visible {
   :root {
     color: #213547;
     background-color: #ffffff;
-    background-image: none; /* Disable star image in light mode if you want */
+    background-image: none; /* Disable starry background in light mode */
   }
   a:hover {
     color: #747bff;
