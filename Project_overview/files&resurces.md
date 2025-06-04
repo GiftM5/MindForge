@@ -6,4 +6,4 @@
 | 📘 Vision PDF      | Project concept + goals                 | Coming soon (I'll help export) |
 | 📁 GitHub Repo     | Source code (private)                   | \[Your private repo]           |
 | 📄 Feature Sheet   | List of app features                    | In this wiki                   |
-| 📚 Learning Guides | FastAPI, OpenAI, React Native tutorials | [See Resource List](https://www.youtube.com/watch?v=0-S5a0eXPoc)  |
+| 📚 Learning Guides | FastAPI, OpenAI, React Native tutorials | [See Resource for react native](https://www.youtube.com/watch?v=0-S5a0eXPoc)  |
